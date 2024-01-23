@@ -1,4 +1,18 @@
-<!DOCTYPE html>
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: ["./src/**/*.{html,js}"],
+    theme: {
+      extend: {},
+    },
+    plugins: [],
+  }
+
+
+
+
+
+
+  <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
@@ -251,21 +265,21 @@
             <hr class="border-t-2 border-dashed border-gray-300 mt-8">
         </div>
         <div class="grid grid-rows-3 lg:grid-cols-2 lg:flex-1 gap-6 mt-12">
-          <div class="bg-[linear-gradient(45deg,rgba(19,19,24,0.5),rgba(19,19,24,0.5)),url('2.png')] h-[340px] bg-no-repeat bg-cover bg-center rounded-2xl w-full">
+          <div class="bg-[linear-gradient(45deg,rgba(19,19,24,0.5),rgba(19,19,24,0.5)),url('Images/2.png')] h-[340px] bg-no-repeat bg-cover bg-center rounded-2xl w-full">
             <div class="px-6 py-24 lg:pt-32">
               <h2 class="text-3xl font-extrabold text-white pb-4">Junior Program</h2>
               <p class="text-base font-medium text-white pb-6">Elite skill development for junior hockey players aged 13-18, <br>fostering teamwork, leadership, and sportsmanship.</p>
               <button class="btn btn-primary bg-primary text-sm lg:text-xl text-white border-0 font-bold">Register Now!</button>
             </div>
           </div>
-          <div class="bg-[linear-gradient(45deg,rgba(19,19,24,0.5),rgba(19,19,24,0.5)),url('3.png')] h-[340px] bg-no-repeat bg-cover bg-center rounded-2xl w-full">
+          <div class="bg-[linear-gradient(45deg,rgba(19,19,24,0.5),rgba(19,19,24,0.5)),url('Images/3.png')] h-[340px] bg-no-repeat bg-cover bg-center rounded-2xl w-full">
             <div class="px-6 py-24 lg:p-10 lg:pt-32">
               <h2 class="text-3xl font-extrabold text-white pb-4">Teenager Program</h2>
               <p class="text-base font-medium text-white pb-6">Specialized coaching from seasoned professionals, <br> guiding teenagers toward their full potential on the ice.</p>
               <button class="btn btn-primary bg-primary text-sm lg:text-xl text-white border-0 font-bold">Register Now!</button>
             </div>
           </div>
-          <div class="bg-[linear-gradient(45deg,rgba(19,19,24,0.5),rgba(19,19,24,0.5)),url('4.png')] h-[340px] bg-no-repeat bg-cover bg-center rounded-2xl lg:col-span-2 w-full">
+          <div class="bg-[linear-gradient(45deg,rgba(19,19,24,0.5),rgba(19,19,24,0.5)),url('Images/4.png')] h-[340px] bg-no-repeat bg-cover bg-center rounded-2xl lg:col-span-2 w-full">
             <div class="px-6 py-24 lg:pt-32 lg:pr-[600px]">
               <h2 class="text-3xl font-extrabold text-white pb-4">Professional Program</h2>
               <p class="text-base font-medium text-white pb-6">Holistic program integrating physical conditioning, mental resilience, and academic support for promising young athletes.</p>
@@ -277,3 +291,4 @@
     </main>
 </body>
 </html>
+
